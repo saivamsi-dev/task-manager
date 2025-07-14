@@ -1,0 +1,5 @@
+.home-wrapper {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #2c5364 0%, #203a43 10%, #071217 100%);
+    padding: 2rem;
+}

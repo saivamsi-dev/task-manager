@@ -1,0 +1,35 @@
+/* Login.css */
+
+/* Background gradient for full screen */
+.login-wrapper {
+    background: linear-gradient(135deg, #2c5364 0%, #203a43 10%, #071217 100%);
+}
+
+/* Glassmorphism card with floating animation */
+.login-card {
+    width: 100%;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+
+    /* Light shadow for depth */
+    box-shadow: 0 8px 20px rgba(235, 225, 225, 0.673);
+
+    /* Floating animation */
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Floating keyframes */
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
